@@ -4,6 +4,7 @@
   "description": "Lib from course JS with TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/petrusbr/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/petrusbr/js-tdd-course#readme"
+  "homepage": "https://github.com/petrusbr/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
